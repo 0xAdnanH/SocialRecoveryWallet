@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+The social recovery wallets are the new way of interacting on the blockchain pointed by one of Vitalik's [post](https://vitalik.ca/general/2021/01/11/recovery.html)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+They work by having the owner of the wallet setup guardians, addresses, he trust which can later have the ability to vote for a specific address to claim ownership. 
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+This is a process that can be iterative happening more than once.
